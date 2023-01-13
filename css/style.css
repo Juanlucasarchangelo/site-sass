@@ -1,14 +1,12 @@
-body {
-  background-color: 3CCC;
-  width: 100%;
-  height: 100%;
+div, main {
+  background: #ddd;
 }
-body .container {
-  background: lightblue;
+div p, div h2, main p, main h2 {
+  color: blue;
 }
-body .container h1 {
-  color: #333;
-  text-align: center;
+
+main .p-vermelho {
+  color: red;
 }
 
 /*# sourceMappingURL=style.css.map */
