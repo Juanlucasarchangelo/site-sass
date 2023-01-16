@@ -1,23 +1,26 @@
-//Escopo Global
-
-$text-color: red
-$bg-color: blue
-$h2-color: #fff
+@import 'variables'    
 
 h1
     color: $text-color
 
 p
     color: $text-color
+    border: $border
+    margin: #{$mx + 10px}
 
 a
     color: $text-color
 
 div 
     p
-        $font-color: #fff
+        //Escopo local
+        $font-color: red
+        //Shadowing
+        $border: 3px dotted green
+
         background-color: $bg-color
         color: $font-color
+        border: $border
 
 h2
     color: $h2-color

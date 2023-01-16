@@ -4,6 +4,8 @@ h1 {
 
 p {
   color: red;
+  border: 2px solid red;
+  margin: 12px;
 }
 
 a {
@@ -11,12 +13,13 @@ a {
 }
 
 div p {
-  background-color: blue;
-  color: #fff;
+  background-color: yellow;
+  color: red;
+  border: 3px dotted green;
 }
 
 h2 {
-  color: #fff;
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
